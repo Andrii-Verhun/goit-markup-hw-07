@@ -1,0 +1,46 @@
+.top-clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.clients-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-item {
+    width: 170px;
+    height: 92px;
+}
+
+.client-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+    transition: color 250ms var(--brand-timefn), border-color 250ms var(--brand-timefn);
+}
+
+.client-icon {
+    fill: currentColor;
+}
+
+.client-link:hover {
+    border-color: var(--brand-color);
+    color: var(--brand-color)
+}
+
+.client-link:focus {
+    border-color: var(--brand-color);
+    color: var(--brand-color)
+}

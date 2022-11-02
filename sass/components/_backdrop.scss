@@ -1,0 +1,203 @@
+.backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: opacity 250ms var(--brand-timefn), visibility 250ms var(--brand-timefn);
+}
+
+.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    position: absolute;
+    width: 528px;
+    height: 581px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
+
+.close-modal-button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background: #FFFFFF;
+    font-size: 11px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.close-modal-button-icon {
+    fill: currentColor;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.close-modal-button:hover {
+    color: var(--brand-color);
+}
+
+
+
+.modal-caption {
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.modal-label-text {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--brand-color-text);
+}
+
+.modal-personal-data {
+    display: block;
+    width: 100%;
+    padding: 11px 12px 11px 42px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transition: border-color 250ms var(--brand-timefn);
+}
+
+.modal-personal-data:focus {
+    outline: none;
+    border-color: var(--brand-color);
+}
+
+.icon-for-input {
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+    transition: fill 250ms var(--brand-timefn);
+}
+
+.modal-personal-data:focus+.icon-for-input {
+    fill: var(--brand-color);
+}
+
+.modal-comment {
+    display: block;
+    width: 100%;
+    height: 120px;
+    resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    transition: border-color 250ms var(--brand-timefn);
+}
+
+.modal-comment:focus {
+    outline: none;
+    border-color: var(--brand-color);
+}
+
+.modal-comment::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.checkbox-wrapper {
+    position: relative;
+    margin-left: 14px;
+}
+
+.icon-uncheck {
+    position: absolute;
+    transform: translateY(20%);
+    z-index: -1;
+}
+
+.icon-check {
+    position: absolute;
+    fill: var(--brand-color);
+    transform: translateY(20%) translateX(-119%);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 250ms var(--brand-timefn);
+}
+
+.license-agreement {
+    opacity: 0;
+    width: 16px;
+    height: 15px;
+}
+
+.license-agreement:checked+.icon-check {
+    opacity: 1;
+}
+
+.license-agreement-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+}
+
+.license-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--brand-color);
+}
+
+.send-modalform-button {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 50px;
+    background: var(--brand-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #fff;
+    transition: background 250ms var(--brand-timefn);
+}
+
+.send-modalform-button:hover {
+    background: #188CE8;
+}
+
+.send-modalform-button:focus {
+    background: #188CE8;
+}
