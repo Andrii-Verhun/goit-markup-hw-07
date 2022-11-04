@@ -1,6 +1,7 @@
 @import './utils/variables';
 @import './utils/global-styles';
 @import './utils/container';
+@import './utils/is-hidden';
 
 @import './components/advantages-section';
 @import './components/backdrop';
@@ -9,6 +10,7 @@
 @import './components/header';
 @import './components/hero-section';
 @import './components/logo';
+@import './components/modal';
 @import './components/navigation';
 @import './components/portfolio';
 @import './components/section-title';

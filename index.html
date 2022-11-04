@@ -387,49 +387,49 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="close-modal-button" type="button" data-modal-close>
-                <svg class="close-modal-button-icon" width="18" height="18">
+            <button class="modal__close-button" type="button" data-modal-close>
+                <svg class="modal__close-icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <form class="services-form" name="services-form" autocomplete="on">
-                <h3 class="modal-caption">Залиште свої дані, ми вам передзвонимо</h3>
-                <div class="input-wrapper">
-                    <label class="modal-label-text" for="username-modal">Ім'я</label>
-                    <input class="modal-personal-data" id="username-modal" type="text" name="username-services">
-                    <svg class="icon-for-input" width="18" height="18">
+            <form name="services-form" autocomplete="on">
+                <h3 class="modal__caption">Залиште свої дані, ми вам передзвонимо</h3>
+                <div class="modal__input-wrapper">
+                    <label class="modal__label" for="username-modal">Ім'я</label>
+                    <input class="modal__personal-data" id="username-modal" type="text" name="username-services">
+                    <svg class="modal__input-icon" width="18" height="18">
                         <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                 </div>
-                <div class="input-wrapper">
-                    <label class="modal-label-text" for="telefone-modal">Телефон</label>
-                    <input class="modal-personal-data" id="telefone-modal" type="tel" name="telefone-services">
-                    <svg class="icon-for-input" width="18" height="18">
+                <div class="modal__input-wrapper">
+                    <label class="modal__label" for="telefone-modal">Телефон</label>
+                    <input class="modal__personal-data" id="telefone-modal" type="tel" name="telefone-services">
+                    <svg class="modal__input-icon" width="18" height="18">
                         <use href="./images/icons.svg#icon-phone"></use>
                     </svg>
                 </div>
-                <div class="input-wrapper">
-                    <label class="modal-label-text" for="email-modal">Пошта</label>
-                    <input class="modal-personal-data" id="email-modal" type="email" name="email-services">
-                    <svg class="icon-for-input" width="18" height="18">
+                <div class="modal__input-wrapper">
+                    <label class="modal__label" for="email-modal">Пошта</label>
+                    <input class="modal__personal-data" id="email-modal" type="email" name="email-services">
+                    <svg class="modal__input-icon" width="18" height="18">
                         <use href="./images/icons.svg#icon-email"></use>
                     </svg>
                 </div>
-                <label class="modal-label-text" for="modal-comment">Коментар</label>
-                <textarea class="modal-comment" name="modal-comment" id="modal-comment" placeholder="Введіть текст"></textarea>
-                <div class="checkbox-wrapper">
-                    <svg class="icon-uncheck" width="16" height="15">
+                <label class="modal__label" for="modal-comment">Коментар</label>
+                <textarea class="modal__comment" name="modal-comment" id="modal-comment" placeholder="Введіть текст"></textarea>
+                <div class="modal__checkbox">
+                    <svg class="modal__uncheck-icon" width="16" height="15">
                         <use href="./images/icons.svg#icon-uncheck"></use>
                     </svg>
-                    <input class="license-agreement" id="license-agreement" type="checkbox" name="license-agreement">
-                    <svg class="icon-check" width="16" height="15">
+                    <input class="modal__license-agreement" id="license-agreement" type="checkbox" name="license-agreement">
+                    <svg class="modal__check-icon" width="16" height="15">
                         <use href="./images/icons.svg#icon-check"></use>
                     </svg>
-                    <label class="license-agreement-text" for="license-agreement">
-                    Погоджуюся з розсилкою та приймаю <a class="license-link"href="#">Умови договору</a>
+                    <label class="modal__license-agreement-text" for="license-agreement">
+                    Погоджуюся з розсилкою та приймаю <a class="modal__license-link"href="#">Умови договору</a>
                     </label>
                 </div>
-                <button class="send-modalform-button" type="submit">Відправити</button>
+                <button class="modal__send-button" type="submit">Відправити</button>
             </form>
         </div>
     </div>
