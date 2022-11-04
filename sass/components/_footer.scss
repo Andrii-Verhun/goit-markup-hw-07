@@ -4,27 +4,27 @@ $brand-hoverColor: #188CE8;
     background-color: var(--brand-color-bcg);
     padding: 60px 0px;
 
-    $__conteiner {
+    &__conteiner {
             display: flex;
             align-items: baseline;
             gap: 70px;
         }
 
-    $__adress {
+    &__adress {
         width: 231px;
         height: 132px;
         }
 
-    $__logo {
+    &__logo {
         display: block;
         margin-bottom: 20px;
         }
 
-    $__logo--white {
+    &__logo--white {
         color: #FFF;
         }
 
-    $__physical-address {
+    &__physical-address {
         font-style: normal;
         font-size: 14px;
         line-height: 1.71;
@@ -33,7 +33,7 @@ $brand-hoverColor: #188CE8;
         margin-bottom: 9px;
         }
 
-    $__contacts {
+    &__contacts {
         font-style: normal;
         font-size: 14px;
         line-height: 1.71;
@@ -43,16 +43,16 @@ $brand-hoverColor: #188CE8;
         display: block;
         transition: color 250ms var(--brand-timefn);
 
-        $:hover,$:focus {
+        &:hover,&:focus {
                 color: var(--brand-color);
             }
         }
 
-    $__contacts:not(:last-child) {
+    &__contacts:not(:last-child) {
         margin-bottom: 9px;
         }
 
-    $__invitation {
+    &__invitation {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -62,13 +62,13 @@ $brand-hoverColor: #188CE8;
         margin-bottom: 20px;
         }
 
-    $__form {
+    &__form {
         width: 570px;
         margin-left: auto;
         position: relative;
         }
 
-    $__email {
+    &__email {
         width: 358px;
         height: 50px;
         padding: 15px 16px;
@@ -79,13 +79,13 @@ $brand-hoverColor: #188CE8;
         color: #fff;
         transition: border-color 250ms var(--brand-timefn);
 
-        $:focus {
+        &:focus {
                 outline: none;
                 border-color: var(--brand-color);
             }
         }
 
-    $__send-button {
+    &__send-button {
         width: 200px;
         height: 50px;
         position: absolute;
@@ -104,12 +104,12 @@ $brand-hoverColor: #188CE8;
         letter-spacing: 0.06em;
         transition: background 250ms var(--brand-timefn);
 
-        $:hover,$:focus {
+        &:hover,&:focus {
                 background: $brand-hoverColor;
             }
         }
 
-    $__send-icon {
+    &__send-icon {
         position: absolute;
         top: 13px;
         right: 28px;

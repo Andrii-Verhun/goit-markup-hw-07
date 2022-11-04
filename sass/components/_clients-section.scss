@@ -4,12 +4,12 @@
     justify-content: center;
     gap: 30px;
 
-    $__item {
+    &__item {
             width: 170px;
             height: 92px;
         }
 
-    $__link {
+    &__link {
         width: 100%;
         height: 100%;
         display: flex;
@@ -20,18 +20,18 @@
         color: #AFB1B8;
         transition: color 250ms var(--brand-timefn), border-color 250ms var(--brand-timefn);
 
-        $:hover {
+        &:hover {
                 border-color: var(--brand-color);
                 color: var(--brand-color)
             }
 
-        $:focus {
+        &:focus {
             border-color: var(--brand-color);
             color: var(--brand-color)
             }
         }
     
-    $__icon {
+    &__icon {
         fill: currentColor;
     }
 }

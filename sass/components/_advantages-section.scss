@@ -4,11 +4,11 @@
     justify-content: space-between;
     align-items: flex-start;
 
-    $__item {
+    &__item {
             flex-basis: 270px;
         }
 
-    $__icon-conteiner {
+    &__icon-conteiner {
         width: 270px;
         height: 120px;
         display: flex;
@@ -19,7 +19,7 @@
         border-radius: 4px
         }
 
-    $__title {
+    &__title {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
@@ -28,7 +28,7 @@
         margin-bottom: 10px;
         }
 
-    $__description {
+    &__description {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;

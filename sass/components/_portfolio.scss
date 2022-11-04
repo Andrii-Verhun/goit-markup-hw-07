@@ -4,23 +4,23 @@
     flex-wrap: wrap;
     gap: 30px;
 
-    $__item {
+    &__item {
             background: #FFF;
             flex-basis: calc((100% - 60px) / 3);
             transition: box-shadow 250ms var(--brand-timefn);
 
-            $:hover {
+            &:hover {
                     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
                 }
         }
 
-    $__box {
+    &__box {
         width: 370px;
         height: 294px;
         overflow: hidden;
         }
 
-    $__description-box {
+    &__description-box {
         width: 370px;
         height: 294px;
         background-color: rgba(33, 150, 243, 0.9);
@@ -28,11 +28,11 @@
         transition: transform 250ms var(--brand-timefn);
         }
 
-    $__item:hover $__description-box {
+    &__item:hover &__description-box {
         transform: translateY(-100%);
         }
 
-    $__desc {
+    &__desc {
         font-weight: 400;
         font-size: 18px;
         line-height: 1.56;
@@ -40,14 +40,14 @@
         color: #FFFFFF;
         }
 
-    $__inner {
+    &__inner {
         border-right: 1px solid #EEE;
         border-left: 1px solid #EEE;
         border-bottom: 1px solid #EEE;
         padding: 20px 24px;
         }
 
-    $__name {
+    &__name {
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
@@ -55,7 +55,7 @@
         margin-bottom: 4px;
         }
 
-    $__type {
+    &__type {
         font-size: 16px;
         line-height: 1.88;
         letter-spacing: 0.03em;
