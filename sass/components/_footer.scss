@@ -1,6 +1,17 @@
-.footer-style {
+.footer {
     background-color: var(--brand-color-bcg);
     padding: 60px 0px;
+}
+
+.footer__conteiner {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.footer__adress {
+    width: 231px;
+    height: 132px;
 }
 
 .footer__logo {
@@ -12,18 +23,7 @@
     color: #FFF;
 }
 
-.footer-conteiner {
-    display: flex;
-    align-items: baseline;
-    gap: 70px;
-}
-
-.container-physadress {
-    width: 231px;
-    height: 132px;
-}
-
-.physical-address {
+.footer__physical-address {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -32,7 +32,7 @@
     margin-bottom: 9px;
 }
 
-.contacts-footer {
+.footer__contacts {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -43,19 +43,19 @@
     transition: color 250ms var(--brand-timefn);
 }
 
-.contacts-footer:not(:last-child) {
+.footer__contacts:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.contacts-footer:hover {
+.footer__contacts:hover {
     color: var(--brand-color);
 }
 
-.contacts-footer:focus {
+.footer__contacts:focus {
     color: var(--brand-color);
 }
 
-.invitation {
+.footer__invitation {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -65,27 +65,13 @@
     margin-bottom: 20px;
 }
 
-.footer-linklist-link {
-    background-color: rgba(255, 255, 255, 0.1);
-    color: #FFFFFF;
-    transition: background-color 250ms var(--brand-timefn);
-}
-
-.footer-linklist-link:hover {
-    background-color: var(--brand-color);
-}
-
-.footer-linklist-link:focus {
-    background-color: var(--brand-color);
-}
-
-.subscription-form {
+.footer__form {
     width: 570px;
     margin-left: auto;
     position: relative;
 }
 
-.subscription-email {
+.footer__email {
     width: 358px;
     height: 50px;
     padding: 15px 16px;
@@ -97,12 +83,12 @@
     transition: border-color 250ms var(--brand-timefn);
 }
 
-.subscription-email:focus {
+.footer__email:focus {
     outline: none;
     border-color: var(--brand-color);
 }
 
-.button-send-form {
+.footer__send-button {
     width: 200px;
     height: 50px;
     position: absolute;
@@ -122,17 +108,17 @@
     transition: background 250ms var(--brand-timefn);
 }
 
-.icon-send-button {
+.footer__send-button:hover {
+    background: #188CE8;
+}
+
+.footer__send-button:focus {
+    background: #188CE8;
+}
+
+.footer__send-icon {
     position: absolute;
     top: 13px;
     right: 28px;
     fill: currentColor;
-}
-
-.button-send-form:hover {
-    background: #188CE8;
-}
-
-.button-send-form:focus {
-    background: #188CE8;
 }

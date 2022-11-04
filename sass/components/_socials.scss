@@ -37,6 +37,20 @@
     color: #fff;
 }
 
+.socials__link--white {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    transition: background-color 250ms var(--brand-timefn);
+}
+
+.socials__link--white:hover {
+    background-color: var(--brand-color);
+}
+
+.socials__link--white:focus {
+    background-color: var(--brand-color);
+}
+
 .socials__icon {
     fill: currentColor;
 }
