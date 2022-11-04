@@ -1,94 +1,33 @@
-.header-box {
+.header {
     display: flex;
     height: 80px;
 }
 
-.style-logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #000000;
+.header__logo {
     padding-top: 24px;
     padding-bottom: 25px;
     margin-right: 93px;
 }
 
-.style-logo-footer {
-    font-family: 'Raleway';
-    font-style: normal;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #fff;
-    display: block;
-    margin-bottom: 20px;
+.header__logo--black {
+    color: #000;
 }
 
-.style-logo-add {
-    color: var(--brand-color)
-}
-
-.list-navigation {
-    display: flex;
-    list-style-type: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.list-navigation-item:not(:last-child) {
+.header__navigation-item:not(:last-child) {
     margin-right: 50px;
 }
 
-.activ-pages {
-    color: var(--brand-color);
-    position: relative;
-}
-
-.activ-pages::after {
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: var(--brand-color);
-    border-radius: 2px;
-    display: block;
-    position: absolute;
-    transform: translateY(-75%);
-}
-
-.navigation-item {
-    text-decoration: none;
-    color: inherit;
+.header__navigation-link {
     display: block;
     padding: 32px 0px;
-    transition: color 250ms var(--brand-timefn);
 }
 
-.navigation-item:visited {
-    color: inherit;
-}
-
-.navigation-item:hover {
-    color: var(--brand-color)
-}
-
-.navigation-item:focus {
-    color: var(--brand-color)
-}
-
-.container-contacts {
+.header__container-contacts {
     margin-left: auto;
     padding: 32px 0px;
 }
 
-.contacts {
+.header__contacts {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -98,14 +37,8 @@
     transition: color 250ms var(--brand-timefn);
 }
 
-.contacts:not(:last-child) {
+.header__contacts:not(:last-child) {
     margin-right: 30px;
-}
-
-.mail-icon,
-.tel-icon {
-    margin-right: 10px;
-    fill: currentColor;
 }
 
 .contacts:hover {
@@ -114,4 +47,10 @@
 
 .contacts:focus {
     color: var(--brand-color);
+}
+
+.header__mail-icon,
+.header__tel-icon {
+    margin-right: 10px;
+    fill: currentColor;
 }
