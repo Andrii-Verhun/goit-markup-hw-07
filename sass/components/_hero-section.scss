@@ -6,7 +6,7 @@
     padding: 200px 0px;
 }
 
-.tagline {
+.hero-section__tagline {
     max-width: 696px;
     font-weight: 900;
     font-size: 44px;
@@ -18,7 +18,7 @@
     margin: 0 auto 30px auto;
 }
 
-.top-button {
+.hero-section__top-button {
     font-family: inherit;
     background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -38,10 +38,10 @@
     transition: background 250ms var(--brand-timefn);
 }
 
-.top-button:hover {
+.hero-section__top-button:hover {
     background: #188CE8;
 }
 
-.top-button:focus {
+.hero-section__top-button:focus {
     background: #188CE8;
 }

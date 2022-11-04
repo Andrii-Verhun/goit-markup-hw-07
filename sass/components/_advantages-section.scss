@@ -1,15 +1,15 @@
-.quality-list {
+.advantages {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.quality-list li {
+.advantages__item {
     flex-basis: 270px;
 }
 
-.quality-conteiner-icon {
+.advantages__icon-conteiner {
     width: 270px;
     height: 120px;
     display: flex;
@@ -20,7 +20,7 @@
     border-radius: 4px
 }
 
-.quality-item {
+.advantages__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -29,7 +29,7 @@
     margin-bottom: 10px;
 }
 
-.quality-item-description {
+.advantages__description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
