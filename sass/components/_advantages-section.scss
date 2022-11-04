@@ -3,35 +3,35 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
 
-.advantages__item {
-    flex-basis: 270px;
-}
+    $__item {
+            flex-basis: 270px;
+        }
 
-.advantages__icon-conteiner {
-    width: 270px;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-    background: #F5F4FA;
-    border-radius: 4px
-}
+    $__icon-conteiner {
+        width: 270px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        background: #F5F4FA;
+        border-radius: 4px
+        }
 
-.advantages__title {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
+    $__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        }
 
-.advantages__description {
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--brand-color-text);
+    $__description {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--brand-color-text);
+        }
 }

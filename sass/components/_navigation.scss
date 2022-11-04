@@ -5,38 +5,34 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-}
 
-.navigation__link {
-    text-decoration: none;
-    color: inherit;
-    transition: color 250ms var(--brand-timefn);
-}
+    $__link {
+            text-decoration: none;
+            color: inherit;
+            transition: color 250ms var(--brand-timefn);
 
-.navigation__link:visited {
-    color: inherit;
-}
+            $:visited {
+                    color: inherit;
+                }
 
-.navigation__link:hover {
-    color: var(--brand-color)
-}
+            $:hover,$:focus {
+                color: var(--brand-color)
+            }
+        }
 
-.navigation__link:focus {
-    color: var(--brand-color)
-}
+    $__activ {
+        color: var(--brand-color);
+        position: relative;
 
-.navigation__activ {
-    color: var(--brand-color);
-    position: relative;
-}
-
-.navigation__activ::after {
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: var(--brand-color);
-    border-radius: 2px;
-    display: block;
-    position: absolute;
-    transform: translateY(-75%);
+        $::after {
+                content: "";
+                width: 100%;
+                height: 4px;
+                background-color: var(--brand-color);
+                border-radius: 2px;
+                display: block;
+                position: absolute;
+                transform: translateY(-75%);
+            }
+        }
 }
