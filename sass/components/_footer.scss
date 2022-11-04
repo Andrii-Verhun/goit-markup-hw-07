@@ -1,3 +1,5 @@
+$brand-hoverColor: #188CE8;
+
 .footer {
     background-color: var(--brand-color-bcg);
     padding: 60px 0px;
@@ -103,7 +105,7 @@
         transition: background 250ms var(--brand-timefn);
 
         $:hover,$:focus {
-                background: #188CE8;
+                background: $brand-hoverColor;
             }
         }
 
