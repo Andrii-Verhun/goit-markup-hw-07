@@ -65,35 +65,10 @@
     margin-bottom: 20px;
 }
 
-.footer-linklist {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.footer-linklist-item {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .footer-linklist-link {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 50% 50%;
     color: #FFFFFF;
     transition: background-color 250ms var(--brand-timefn);
-}
-
-.footer-linklist-icon {
-    fill: currentColor;
 }
 
 .footer-linklist-link:hover {

@@ -1,0 +1,42 @@
+.socials {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials__item {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50%;
+}
+
+.socials__link--grey {
+    color: #AFB1B8;
+    transition: color 250ms var(--brand-timefn), background 250ms var(--brand-timefn);
+}
+
+.socials__link--grey:hover {
+    background-color: var(--brand-color);
+    color: #fff;
+}
+
+.socials__link--grey:focus {
+    background-color: var(--brand-color);
+    color: #fff;
+}
+
+.socials__icon {
+    fill: currentColor;
+}
